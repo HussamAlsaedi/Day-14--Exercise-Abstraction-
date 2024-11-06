@@ -17,12 +17,12 @@ public class Book extends Product {
 
     @Override
     public double getDiscount() {
-        double price = getPrice();
+        double price = super.getPrice();
         double discount = 10;
-        if(discount > price){
+        if(discount > super.getPrice()){
             return price;
         }
-        return price =- discount;
+        return super.getPrice() =- discount;
 
     }
 }

@@ -62,7 +62,7 @@ public class Main {
         System.out.println("New Book Name: " + myBook2.getName());
         System.out.println("New Book Price: " + myBook2.getPrice());
         System.out.println("new Book Author: " + myBook2.getAuthor());
-        System.out.println("New Price Book Discount: " + myBook2.getDiscount());
+        System.out.println("Price Book Discount: " + myBook2.getDiscount());
     }
 
     public static void testMovie() {
@@ -80,7 +80,7 @@ public class Main {
         System.out.println("New Movie Name: " + myMovie1.getName());
         System.out.println("New Movie Price: " + myMovie1.getPrice());
         System.out.println("New Movie Director: " + myMovie1.getDirector());
-        System.out.println("New Price Movie Discount: " + myMovie1.getDiscount());
+        System.out.println("Price Movie Discount: " + myMovie1.getDiscount());
     }
 
     public static void testMovablePoint() {

@@ -20,7 +20,7 @@ public class Movie extends Product {
 
     @Override
     public double getDiscount() {
-        double price = getPrice();
+        double price =  super.getPrice();
         double discount = 10;
         if(discount > price){
             return price;
