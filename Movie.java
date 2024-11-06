@@ -18,13 +18,14 @@ public class Movie extends Product {
         this.director = director;
     }
 
-    @Override
+   @Override
     public double getDiscount() {
         double price =  super.getPrice();
-        double discount = 10;
+        double discount = 2000000;
         if(discount > price){
             return price;
         }
-        return price =- discount;
+        double newPrice = price -= discount;
+        return newPrice;
     }
 }
