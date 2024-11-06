@@ -63,7 +63,7 @@ public class MovablePoint implements Movable {
     @Override
     public void moveRight() {
     x += xSpeed;
-        System.out.println("x moveLeft = "+x);
+        System.out.println("x moveRight = "+x);
     }
 
 
